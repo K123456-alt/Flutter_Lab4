@@ -7,7 +7,11 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: (Scaffold(
-        body: GradientContainer()
+        body: GradientContainer(
+          Colors.white,
+          Colors.blue,
+          Colors.red,
+        )
         
       )),
     ),
